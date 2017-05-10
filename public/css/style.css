@@ -1,0 +1,18 @@
+/*reset css*/
+html,body,div,p,ul,ol,dl,h1,h2,h3,h4,h5,h6,section,article,header,footer {padding: 0;margin: 0;}
+a {text-decoration: none;}
+ul,ol,dl,li {list-style-type: none;}
+html, body {
+	font-size: 62.5%;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: #f4f4f4;
+}
+
+@media screen and (min-width: 640px) {
+  html,body {
+    position: relative;
+    width: 640px;
+    left: 50%;
+    margin-left: -320px;
+  }
+}
