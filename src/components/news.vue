@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
 	.news-detail {
-		padding: 10px 0 70px 0;
+		padding: 10px 10px 70px 10px;
 		font-size: 1.2rem;
 	}
 	.news-detail title {
